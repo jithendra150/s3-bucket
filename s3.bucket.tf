@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "example" {
+resource "aws_s3_bucket" "storage" {
   bucket = "my-tf-test-bucket"
 
   tags = {
